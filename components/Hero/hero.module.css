@@ -1,0 +1,54 @@
+.hero h1{
+    font-weight: 900;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.hero span{
+    color: #3d4a84;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+   .box2{
+        display: flex;
+        align-items: center;
+    }
+    
+
+.box1{
+    margin: 10px;
+}
+.box1 p{
+    margin: 20px;
+}
+
+
+/* when below 1401 px  */
+@media screen and (max-width: 1401px){
+    .box2{
+        display: none;
+    }
+}
+
+/* above 610 px  */
+@media screen and (min-width:610px) {
+    
+    .hero h1{
+    font-size: 400%;
+
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1{
+        max-width: 900px;
+    }
+    
+ 
+}

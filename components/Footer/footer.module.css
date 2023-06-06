@@ -1,0 +1,15 @@
+.footer{
+    color: rgba(245, 245, 245, 0.756);
+    background-color: #1e2650;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center
+    ;justify-content: center;
+    font-size: 10px;
+}
+@media screen and (min-width:1000px) {
+    .footer{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,64 @@
+/* Stuling applied on dextop screen */
+.navbar{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.11);
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+
+}
+.navbar ul li:hover{
+    color: #707797;
+    cursor: pointer;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width:610px) {
+    .navbar{
+        height: 100px;
+        font-size: 20px;
+    }   
+    .img{
+        height: 100px;
+        width: 120px;
+    }
+    }
+
+
+@media screen and (max-width: 948px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.11);
+    }
+    .navbar ul{
+        display: none;
+    }
+}
+
+
+/* topbar */
+.topbar{
+    background-color: #1f2853;
+    color: rgb(207, 199, 199);
+    list-style: none;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height:  30px;
+}
+  
