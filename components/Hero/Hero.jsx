@@ -22,7 +22,7 @@ parents and the teachers deserve the applause.</p>
 
 {/* box2 */}
 <div className={style.box2}>
-<Image height={600} width={600} src="https://mcmscache.epapr.in/post_images/website_350/post_29811255/full.jpg"/>
+<Image alt='img' height={600} width={600} src="https://mcmscache.epapr.in/post_images/website_350/post_29811255/full.jpg"/>
 </div>
 
 

@@ -36,10 +36,10 @@ const Socmedia=()=>{
     <div className={style.socialmedia}>
 
 
-        <img src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="" />
-        <img src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="" />
-        <img src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" alt="" />
-        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="" />
+        <img  alt="img" src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" alt="" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="" />
     </div>
 <p className={style.address}> Awas Vikas Colony Gonda, UttarPradesh ,271001
 </p>

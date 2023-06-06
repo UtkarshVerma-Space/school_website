@@ -13,7 +13,7 @@ export default function Nav() {
 </div>
     <div className={style.navbar}>
         <div className={style.logo}>
-            <Image className={style.img}
+            <Image alt="img" className={style.img}
             height={100} width={100}
             src={logo}/>
         </div>
