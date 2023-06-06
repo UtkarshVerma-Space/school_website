@@ -20,7 +20,7 @@ return(
 <>
 <div className={style.quote}>
 
-    <p className={style.quotes}>"Indeed, one of the most impressive forward-thinking schools that I have ever seen. Wish I had an opportunity to go back to school, this would definitely be my first choice. Your students will excel & I wish them and you all the very best."</p>
+    <p className={style.quotes}> &quot;Indeed, one of the most impressive forward-thinking schools that I have ever seen. Wish I had an opportunity to go back to school, this would definitely be my first choice. Your students will excel & I wish them and you all the very best.&quot;</p>
     <p className={style.author} >- Mr <span> Ajay </span> Mishra [ Principal  ]</p>
 </div>
 </>
@@ -36,10 +36,10 @@ const Socmedia=()=>{
     <div className={style.socialmedia}>
 
 
-        <img  alt="mg" src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="" />
-        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="" />
-        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" alt="" />
-        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="" />
+        <img  alt="mg" src="https://cdn-icons-png.flaticon.com/128/455/455705.png" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/733/733585.png" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" />
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png"/>
     </div>
 <p className={style.address}> Awas Vikas Colony Gonda, UttarPradesh ,271001
 </p>
